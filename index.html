@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home · Astra</title>
+  <meta name="description" content="Astra is a free competitive programming platform: problems, rated contests, and rankings for training algorithmic thinking." />
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  
+</head>
+<body class="">
+  <header class="site-header">
+    <nav class="navbar container">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Astra
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="problems.html" class="">Problems</a></li>
+        <li><a href="contests.html" class="">Contests</a></li>
+        <li><a href="gym.html" class="">Gym</a></li>
+        <li><a href="rankings.html" class="">Rankings</a></li>
+        <li><a href="guide.html" class="">Guide</a></li>
+        <li><a href="about.html" class="">About</a></li>
+        <li class="nav-only-mobile"><a href="login.html">Log in</a></li>
+        <li class="nav-only-mobile"><a href="register.html">Sign up</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" type="button" aria-label="Toggle dark mode" aria-pressed="false">
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.5M12 19.5V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8L6 18M18 6l1.8-1.8"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a6.8 6.8 0 0 0 10.5 10.5Z"/></svg>
+        </button>
+        <a href="login.html" class="btn btn-secondary btn-sm hide-mobile">Log in</a>
+        <a href="register.html" class="btn btn-primary btn-sm hide-mobile">Sign up</a>
+        <button class="hamburger" type="button" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+  <main>
+  <!-- HERO ================================================================= -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <span class="hero-kicker"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.1 6.5L12 17.6 6.2 20.5l1.1-6.5L2.5 9.4l6.6-.9L12 2.5Z"/></svg> Season 4 rating reset &mdash; now live</span>
+        <h1>May the system<br/>test be <em>with</em> you.</h1>
+        <p class="hero-tagline">For the benefit of all.</p>
+        <p class="hero-lede">Astra is a free training ground for algorithmic thinking: a deep problemset, timed rated contests, and a rating that actually reflects how you solve &mdash; not just what you memorised.</p>
+        <div class="hero-actions">
+          <a href="register.html" class="btn btn-primary">Start solving &mdash; it's free</a>
+          <a href="contests.html" class="btn btn-ghost">See upcoming contests</a>
+        </div>
+        <div class="hero-meta">
+          <div><strong data-count-to="14200" data-suffix="+">0</strong><span>Problems solved today</span></div>
+          <div><strong data-count-to="382" data-suffix="">0</strong><span>Rated contests run</span></div>
+          <div><strong data-count-to="61" data-suffix="k">0</strong><span>Registered coders</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="orbit-ring r1"></div>
+        <div class="orbit-ring r2"></div>
+        <div class="orbit-ring r3"></div>
+        <div class="planet-core"></div>
+        <div class="orbit-node n1">DP</div>
+        <div class="orbit-node n2">1900</div>
+        <div class="orbit-node n3">A+B</div>
+        <div class="orbit-node n4">#4</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURE CARDS ========================================================= -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head center">
+        <span class="eyebrow">Why Astra</span>
+        <h2>Everything a training ground needs, nothing it doesn't</h2>
+        <p style="margin-inline:auto;">No clutter, no paywalled editorials, no dark patterns. Just a clean judge, honest ratings, and problems worth your time.</p>
+      </div>
+      <div class="grid grid-4">
+        <div class="card">
+          <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="8 6 2 12 8 18"/><polyline points="16 6 22 12 16 18"/></svg></div>
+          <h3>2,600+ problems</h3>
+          <p>Sorted by difficulty and topic, from your first loop to segment trees with lazy propagation.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 4h8v4a4 4 0 0 1-8 0V4Z"/><path d="M8 5H4v1a4 4 0 0 0 4 4"/><path d="M16 5h4v1a4 4 0 0 1-4 4"/><path d="M10 14v3M14 14v3"/><path d="M8 21h8M9 17h6l1 4H8l1-4Z"/></svg></div>
+          <h3>Weekly rated rounds</h3>
+          <p>Div. 1 and Div. 2 rounds every week, ICPC and OI formats, real-time standings and hacks.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M12 20V4M20 20v-7"/></svg></div>
+          <h3>A rating worth earning</h3>
+          <p>Astra's rating system rewards consistent solving over lucky guesses &mdash; and it's public.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 7v10M18 7v10M2 10v4M22 10v4M6 12h12"/></svg></div>
+          <h3>Gym &amp; mashups</h3>
+          <p>Build your own practice sets from past rounds, or drop into an unrated virtual contest any time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED CONTEST ====================================================== -->
+  <section class="section section-oxford">
+    <div class="container two-col">
+      <div>
+        <span class="eyebrow" style="color:var(--sandy)">Featured contest</span>
+        <h2 style="color:var(--peach)">Astra Round 118 (Div. 1 + Div. 2)</h2>
+        <p>Six problems, two hours, one shared standings page. Div. 2 problems double as the tail of Div. 1, so everyone lands on a fair curve regardless of rating.</p>
+        <div class="hero-meta" style="margin-top:1.6rem;">
+          <div><strong style="color:var(--peach)">Oct 17</strong><span>Starts 21:35 ICT</span></div>
+          <div><strong style="color:var(--peach)">02:00</strong><span>Duration</span></div>
+          <div><strong style="color:var(--peach)">Rated</strong><span>Up to 3000</span></div>
+        </div>
+        <div class="hero-actions">
+          <a href="contest.html" class="btn btn-primary">Register for round</a>
+          <a href="contests.html" class="btn btn-ghost">View all contests</a>
+        </div>
+      </div>
+      <div class="code-window">
+        <div class="code-bar"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span></div>
+        <pre><span class="c-com">// C. Deranged Calculator &mdash; 1900</span>
+<span class="c-kw">#include</span> <span class="c-str">&lt;bits/stdc++.h&gt;</span>
+<span class="c-kw">using namespace</span> std;
+
+<span class="c-kw">int</span> main() {
+    <span class="c-kw">int</span> l, r; cin &gt;&gt; l &gt;&gt; r;
+    <span class="c-kw">for</span> (<span class="c-kw">int</span> i = l; i &lt;= r; i++)
+        cout &lt;&lt; i &lt;&lt; <span class="c-str">" "</span>;
+    <span class="c-kw">return</span> 0;
+}</pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEM PREVIEW ======================================================= -->
+  <section class="section">
+    <div class="container">
+      <div class="flex-between section-head" style="margin-bottom:1.6rem;">
+        <div>
+          <span class="eyebrow">Fresh off the queue</span>
+          <h2 class="mt-0">Recently added problems</h2>
+        </div>
+        <a href="problems.html" class="btn btn-secondary btn-sm">Browse full problemset</a>
+      </div>
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead><tr><th>#</th><th>Problem</th><th>Topics</th><th>Difficulty</th><th>Solved</th></tr></thead>
+          <tbody>
+            <tr><td>2264F</td><td><a class="problem-link" href="problem-detail.html">Deranged Calculator</a></td><td><span class="tag">math</span><span class="tag">implementation</span></td><td><span class="pill pill-medium">1900</span></td><td>1,112</td></tr>
+            <tr><td>2264D</td><td><a class="problem-link" href="problem-detail.html">Dr. Agos's Dark Mode</a></td><td><span class="tag">brute force</span><span class="tag">strings</span></td><td><span class="pill pill-easy">1400</span></td><td>4,027</td></tr>
+            <tr><td>2263B</td><td><a class="problem-link" href="problem-detail.html">Min Matrices</a></td><td><span class="tag">constructive</span></td><td><span class="pill pill-medium">1700</span></td><td>10,410</td></tr>
+            <tr><td>2262E</td><td><a class="problem-link" href="problem-detail.html">Paired Bracket Sequences</a></td><td><span class="tag">combinatorics</span><span class="tag">math</span></td><td><span class="pill pill-hard">2200</span></td><td>72</td></tr>
+            <tr><td>2260G</td><td><a class="problem-link" href="problem-detail.html">Sortable Permutations</a></td><td><span class="tag">number theory</span></td><td><span class="pill pill-hard">2400</span></td><td>172</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS STRIP ============================================================ -->
+  <section class="section section-oxford">
+    <div class="container">
+      <div class="stats-strip">
+        <div><span class="stat-num" data-count-to="2634">0</span><span class="stat-label">Problems in the archive</span></div>
+        <div><span class="stat-num" data-count-to="61400" data-suffix="+">0</span><span class="stat-label">Registered accounts</span></div>
+        <div><span class="stat-num" data-count-to="382">0</span><span class="stat-label">Rated rounds hosted</span></div>
+        <div><span class="stat-num" data-count-to="3810">0</span><span class="stat-label">Highest live rating</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS =========================================================== -->
+  <section class="section">
+    <div class="container two-col">
+      <div>
+        <span class="eyebrow">How it works</span>
+        <h2>From account to first accepted verdict in four steps</h2>
+        <p>No setup fees, no credit card. Just a judge, a queue, and your next submission.</p>
+        <div class="hero-actions">
+          <a href="guide.html" class="btn btn-secondary">Read the full guide</a>
+        </div>
+      </div>
+      <div class="step-list">
+        <div class="step-item">
+          <div class="step-num">1</div>
+          <div><h4>Create your account</h4><p>Pick a handle &mdash; it's how the whole community will know you on standings pages.</p></div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">2</div>
+          <div><h4>Warm up in the Gym</h4><p>Unrated practice sets and past-round mashups let you calibrate before you compete.</p></div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">3</div>
+          <div><h4>Register for a round</h4><p>Div. 1, Div. 2, or combined &mdash; rounds run weekly, and registration takes ten seconds.</p></div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">4</div>
+          <div><h4>Submit &amp; climb</h4><p>Get instant verdicts, read editorials afterward, and watch your rating move.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIAL / SOCIAL PROOF ============================================= -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="grid grid-3">
+        <div class="card">
+          <p style="font-family:var(--font-display);font-style:italic;font-size:1.05rem;color:var(--text);">&ldquo;Astra's editorials are the first ones I've read all the way through. They explain the <em>why</em>, not just the code.&rdquo;</p>
+          <div class="flex-between" style="margin-top:1.2rem;">
+            <strong style="font-size:0.9rem;">@heuristica</strong><span class="pill pill-hard">3322</span>
+          </div>
+        </div>
+        <div class="card">
+          <p style="font-family:var(--font-display);font-style:italic;font-size:1.05rem;color:var(--text);">&ldquo;I moved from Div. 2 to Div. 1 in four months of weekly rounds. The Gym practice sets made the difference.&rdquo;</p>
+          <div class="flex-between" style="margin-top:1.2rem;">
+            <strong style="font-size:0.9rem;">@maroonrk</strong><span class="pill pill-medium">1780</span>
+          </div>
+        </div>
+        <div class="card">
+          <p style="font-family:var(--font-display);font-style:italic;font-size:1.05rem;color:var(--text);">&ldquo;It's rare to find a judge this fast and this uncluttered. Submissions come back in under a second.&rdquo;</p>
+          <div class="flex-between" style="margin-top:1.2rem;">
+            <strong style="font-size:0.9rem;">@turmax</strong><span class="pill pill-hard">2950</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA ===================================================================== -->
+  <section class="section">
+    <div class="container center-text" style="max-width:640px;">
+      <h2>Your first accepted verdict is a few clicks away.</h2>
+      <p style="margin-inline:auto;">Join for free and get a starting problem set matched to your first placement round.</p>
+      <div class="hero-actions" style="justify-content:center;">
+        <a href="register.html" class="btn btn-primary">Create free account</a>
+        <a href="pricing.html" class="btn btn-secondary">Compare plans</a>
+      </div>
+    </div>
+  </section>
+</main>
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="brand" style="color:var(--peach);margin-bottom:1rem;">
+          <span class="brand-mark" aria-hidden="true"></span> Astra
+        </a>
+        <p>A calm, focused place to train algorithmic thinking &mdash; problems, timed contests, and ratings that track real progress.</p>
+        <div class="social-row">
+          <a href="https://discord.com" target="_blank" rel="noopener" aria-label="Astra on Discord"><svg viewBox="0 0 24 24"><path d="M20 5.6c-1.5-.7-3-1.2-4.7-1.4l-.3.6c1.5.4 2.8 1 4 1.7-2.2-1-4.6-1.6-7-1.6s-4.8.6-7 1.6c1.2-.8 2.6-1.3 4-1.7l-.3-.6C7 4.4 5.5 4.9 4 5.6 1.7 9 1 12.3 1.3 15.5c1.7 1.3 3.4 2 5 2.5l.7-1.3c-.8-.3-1.6-.7-2.3-1.2l.5-.4c3.5 1.6 7.3 1.6 10.8 0l.5.4c-.7.5-1.5.9-2.3 1.2l.7 1.3c1.6-.5 3.3-1.2 5-2.5.4-3.7-.5-7-2.9-9.9ZM8.7 13.4c-.8 0-1.5-.8-1.5-1.7s.7-1.7 1.5-1.7 1.5.8 1.5 1.7-.7 1.7-1.5 1.7Zm6.6 0c-.8 0-1.5-.8-1.5-1.7s.7-1.7 1.5-1.7 1.5.8 1.5 1.7-.6 1.7-1.5 1.7Z"/></svg></a>
+          <a href="https://github.com" target="_blank" rel="noopener" aria-label="Astra on GitHub"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.3-3.4-1.3-.4-1.2-1.1-1.5-1.1-1.5-1-.6.1-.6.1-.6 1 .1 1.6 1.1 1.6 1.1.9 1.6 2.4 1.1 3 .8.1-.7.4-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.5-1.3.1-2.7 0 0 .9-.3 2.9 1a10 10 0 0 1 5.2 0c2-1.3 2.9-1 2.9-1 .6 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .4.3.7 1 .7 2v3c0 .3.2.6.7.5A10 10 0 0 0 12 2Z"/></svg></a>
+          <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Astra on YouTube"><svg viewBox="0 0 24 24"><path d="M22 12s0-3.2-.4-4.7a2.8 2.8 0 0 0-2-2C17.9 5 12 5 12 5s-5.9 0-7.6.3a2.8 2.8 0 0 0-2 2C2 8.8 2 12 2 12s0 3.2.4 4.7a2.8 2.8 0 0 0 2 2C6.1 19 12 19 12 19s5.9 0 7.6-.3a2.8 2.8 0 0 0 2-2C22 15.2 22 12 22 12ZM10 15.3V8.7L15.8 12 10 15.3Z"/></svg></a>
+          <a href="https://x.com" target="_blank" rel="noopener" aria-label="Astra on X"><svg viewBox="0 0 24 24"><path d="M4 4l7.3 9.6L4.4 20h1.9l6-6.6 4.6 6.6H21l-7.6-10L20 4h-1.9l-5.6 6-4.2-6H4Z"/></svg></a>
+        </div>
+      </div>
+
+      <div>
+        <h4>Platform</h4>
+        <ul>
+          <li><a href="problems.html">Problemset</a></li>
+          <li><a href="contests.html">Contests</a></li>
+          <li><a href="gym.html">Gym &amp; practice</a></li>
+          <li><a href="rankings.html">Rankings</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="guide.html">Guide</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="about.html">About Astra</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">Our mission</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html">Report an issue</a></li>
+          <li><a href="contact.html">Propose a problem</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Mission control</h4>
+        <p style="font-size:0.85rem;">Get one email a week: new problems, contest reminders, editorial highlights.</p>
+        <form class="newsletter-form" data-validate novalidate>
+          <div class="form-row" style="flex:1;min-width:180px;margin-bottom:0;">
+            <input type="email" placeholder="you@domain.com" required aria-label="Email address" />
+            <span class="error-msg"></span>
+          </div>
+          <button class="btn btn-primary btn-sm" type="submit">Subscribe</button>
+        </form>
+        <div class="form-success" style="margin-top:0.8rem;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.5-3 7.6-7 9-4-1.4-7-4.5-7-9V6l7-3Z"/><path d="M9 12l2 2 4-4"/></svg> You're on the list.</div>
+        <div class="footer-map" style="margin-top:1.2rem;">
+          <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=106.62%2C10.75%2C106.72%2C10.82&amp;layer=mapnik" title="Astra HQ location map" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <span>&copy; <span data-year>2026</span> Astra. All systems nominal.</span>
+      <div class="footer-bottom-links">
+        <a href="faq.html">Privacy</a>
+        <a href="faq.html">Terms</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+  <script src="js/main.js"></script>
+</body>
+</html>

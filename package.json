@@ -1,0 +1,10 @@
+{
+  "name": "astra-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Astra — May the system test be with you. A competitive programming platform marketing & product site.",
+  "scripts": {
+    "dev": "npx serve . -l 3000",
+    "start": "npx serve ."
+  }
+}
